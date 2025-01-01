@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.test.Edgetesting">
+        <methods>
+          <include name="confirm"/>
+          <include name="searching"/>
+          <include name="billingaddress"/>
+          <include name="Applicationurllanched"/>
+          <include name="loginfuctional"/>
+          <include name="Initializationofbrowser"/>
+          <include name="Register"/>
+          <include name="paymentmethod"/>
+          <include name="shippingmethod"/>
+        </methods>
+      </class> <!-- org.test.Edgetesting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
